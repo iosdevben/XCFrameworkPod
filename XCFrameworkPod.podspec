@@ -13,6 +13,6 @@ Pod::Spec.new do |spec|
 
   spec.platform = :ios, "14.0"
 
-  spec.source = { :git => "https://github.com/iosdevben/#{spec.name}.git", :tag => "#{spec.version}" }
+  spec.source = { :http => "https://github.com/iosdevben/XCFrameworkPod/releases/download/#{spec.version}/XCFrameworkPod.zip" }
   spec.vendored_frameworks = "#{spec.name}.xcframework"
 end
